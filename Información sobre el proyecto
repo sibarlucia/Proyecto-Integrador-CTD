@@ -1,6 +1,9 @@
 Formé parte de este proyecto que es el integrador de la primera etapa de la carrera de Certified Tech Developer, no fui el único participante de este vídeo sino que fue un esfuerzo colectivo entre 4 personas en total. 
 Fuimos el grupo 5 de la camada 7 en la carrera de Certified Tech Developer de Digital House.
 
+La infraestructura está montada sobre una máquina virtual con SO Ubuntu en AWS, el proyecto es un link de un bucket S3: http://c7g5-bucket2.s3-website.us-east-2.amazonaws.com
+Para la automatización creé unas pipelines que montan tanto el front y el back y luego hacen el deploy al bucket S3 y al servidor respectivamente. 
+
 Para funcionalidades de administrador ingresar en el login: 
 -email: admin123@mail.com
 -password: admin123
