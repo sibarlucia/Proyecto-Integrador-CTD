@@ -1,0 +1,23 @@
+@use '../_variables' as _;
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    background-color: _.$background;
+    margin: 4rem 0;
+    width: 100%;
+
+    .details-container {
+        background-color: white;
+
+        &-icons {
+            padding: 1rem 2rem;
+            padding-bottom: 1rem;
+            color: _.$secondary;
+
+            .icon-share {
+                margin-left: 0.7rem;
+            }
+        }
+    }
+}

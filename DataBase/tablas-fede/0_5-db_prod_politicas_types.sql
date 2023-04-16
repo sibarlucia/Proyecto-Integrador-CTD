@@ -1,0 +1,10 @@
+CREATE DATABASE  IF NOT EXISTS `0223TDPRON1C7LAED0621PT_GRUPO5`;
+USE `0223TDPRON1C7LAED0621PT_GRUPO5`;
+
+DROP TABLE IF EXISTS `politicas_types`;
+CREATE TABLE `politicas_types` (
+  `politicas_types_id` int NOT NULL AUTO_INCREMENT,
+  `descripcion` varchar(200) NOT NULL,
+  PRIMARY KEY (`politicas_types_id`)
+);
+ALTER TABLE politicas_types AUTO_INCREMENT = 1;

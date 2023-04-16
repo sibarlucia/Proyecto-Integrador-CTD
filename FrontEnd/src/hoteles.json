@@ -1,0 +1,518 @@
+[
+  {
+    "productoId": 1,
+    "titulo": "Mansión Foster",
+    "descripcion": "Explora la rica historia y cultura de nuestra ciudad desde la comodidad de nuestro hotel de estilo colonial, donde cada detalle evoca la época dorada de la región.",
+    "esFavorito": true,
+    "ciudad": {
+      "ciudadID": 1,
+      "nombre": "Buenos Aires",
+      "pais": {
+        "paisID": 1,
+        "nombre": "Argentina"
+      }
+    },
+    "categoriaTitulo": "Bed and Breakfast",
+    "caracteristicas": [
+      {
+        "id": 1,
+        "icono": "swimmer"
+      },
+      {
+        "id": 2,
+        "icono": "dumbbell"
+      },
+      {
+        "id": 3,
+        "icono": "utensils"
+      },
+      {
+        "id": 4,
+        "icono": "cocktail"
+      },
+      {
+        "id": 5,
+        "icono": "wifi"
+      }
+    ],
+    "imagen": {
+      "id": 1,
+      "urlImagen": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=780&q=80",
+      "imagen": null
+    },
+    "puntajePromedio": 3.67
+  },
+  {
+    "productoId": 2,
+    "titulo": "Mansión Foster",
+    "descripcion": "Explora la rica historia y cultura de nuestra ciudad desde la comodidad de nuestro hotel de estilo colonial, donde cada detalle evoca la época dorada de la región.",
+    "esFavorito": true,
+    "ciudad": {
+      "ciudadID": 1,
+      "nombre": "Buenos Aires",
+      "pais": {
+        "paisID": 1,
+        "nombre": "Argentina"
+      }
+    },
+    "categoriaTitulo": "Bed and Breakfast",
+    "caracteristicas": [
+      {
+        "id": 1,
+        "icono": "swimmer"
+      },
+      {
+        "id": 2,
+        "icono": "dumbbell"
+      },
+      {
+        "id": 3,
+        "icono": "utensils"
+      },
+      {
+        "id": 4,
+        "icono": "cocktail"
+      },
+      {
+        "id": 5,
+        "icono": "wifi"
+      }
+    ],
+    "imagen": {
+      "id": 1,
+      "urlImagen": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=780&q=80",
+      "imagen": null
+    },
+    "puntajePromedio": 3.67
+  },
+  {
+    "productoId": 3,
+    "titulo": "Mansión Foster",
+    "descripcion": "Explora la rica historia y cultura de nuestra ciudad desde la comodidad de nuestro hotel de estilo colonial, donde cada detalle evoca la época dorada de la región.",
+    "esFavorito": true,
+    "ciudad": {
+      "ciudadID": 1,
+      "nombre": "Buenos Aires",
+      "pais": {
+        "paisID": 1,
+        "nombre": "Argentina"
+      }
+    },
+    "categoriaTitulo": "Bed and Breakfast",
+    "caracteristicas": [
+      {
+        "id": 1,
+        "icono": "swimmer"
+      },
+      {
+        "id": 2,
+        "icono": "dumbbell"
+      },
+      {
+        "id": 3,
+        "icono": "utensils"
+      },
+      {
+        "id": 4,
+        "icono": "cocktail"
+      },
+      {
+        "id": 5,
+        "icono": "wifi"
+      }
+    ],
+    "imagen": {
+      "id": 1,
+      "urlImagen": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=780&q=80",
+      "imagen": null
+    },
+    "puntajePromedio": 3.67
+  },
+  {
+    "productoId": 4,
+    "titulo": "Mansión Foster",
+    "descripcion": "Explora la rica historia y cultura de nuestra ciudad desde la comodidad de nuestro hotel de estilo colonial, donde cada detalle evoca la época dorada de la región.",
+    "esFavorito": true,
+    "ciudad": {
+      "ciudadID": 1,
+      "nombre": "Buenos Aires",
+      "pais": {
+        "paisID": 1,
+        "nombre": "Argentina"
+      }
+    },
+    "categoriaTitulo": "Bed and Breakfast",
+    "caracteristicas": [
+      {
+        "id": 1,
+        "icono": "swimmer"
+      },
+      {
+        "id": 2,
+        "icono": "dumbbell"
+      },
+      {
+        "id": 3,
+        "icono": "utensils"
+      },
+      {
+        "id": 4,
+        "icono": "cocktail"
+      },
+      {
+        "id": 5,
+        "icono": "wifi"
+      }
+    ],
+    "imagen": {
+      "id": 1,
+      "urlImagen": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=780&q=80",
+      "imagen": null
+    },
+    "puntajePromedio": 3.67
+  },
+  {
+    "productoId": 5,
+    "titulo": "Mansión Foster",
+    "descripcion": "Explora la rica historia y cultura de nuestra ciudad desde la comodidad de nuestro hotel de estilo colonial, donde cada detalle evoca la época dorada de la región.",
+    "esFavorito": true,
+    "ciudad": {
+      "ciudadID": 1,
+      "nombre": "Buenos Aires",
+      "pais": {
+        "paisID": 1,
+        "nombre": "Argentina"
+      }
+    },
+    "categoriaTitulo": "Bed and Breakfast",
+    "caracteristicas": [
+      {
+        "id": 1,
+        "icono": "swimmer"
+      },
+      {
+        "id": 2,
+        "icono": "dumbbell"
+      },
+      {
+        "id": 3,
+        "icono": "utensils"
+      },
+      {
+        "id": 4,
+        "icono": "cocktail"
+      },
+      {
+        "id": 5,
+        "icono": "wifi"
+      }
+    ],
+    "imagen": {
+      "id": 1,
+      "urlImagen": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=780&q=80",
+      "imagen": null
+    },
+    "puntajePromedio": 3.67
+  },
+  {
+    "productoId": 6,
+    "titulo": "Mansión Foster",
+    "descripcion": "Explora la rica historia y cultura de nuestra ciudad desde la comodidad de nuestro hotel de estilo colonial, donde cada detalle evoca la época dorada de la región.",
+    "esFavorito": true,
+    "ciudad": {
+      "ciudadID": 1,
+      "nombre": "Buenos Aires",
+      "pais": {
+        "paisID": 1,
+        "nombre": "Argentina"
+      }
+    },
+    "categoriaTitulo": "Bed and Breakfast",
+    "caracteristicas": [
+      {
+        "id": 1,
+        "icono": "swimmer"
+      },
+      {
+        "id": 2,
+        "icono": "dumbbell"
+      },
+      {
+        "id": 3,
+        "icono": "utensils"
+      },
+      {
+        "id": 4,
+        "icono": "cocktail"
+      },
+      {
+        "id": 5,
+        "icono": "wifi"
+      }
+    ],
+    "imagen": {
+      "id": 1,
+      "urlImagen": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=780&q=80",
+      "imagen": null
+    },
+    "puntajePromedio": 3.67
+  },
+  {
+    "productoId": 7,
+    "titulo": "Mansión Foster",
+    "descripcion": "Explora la rica historia y cultura de nuestra ciudad desde la comodidad de nuestro hotel de estilo colonial, donde cada detalle evoca la época dorada de la región.",
+    "esFavorito": true,
+    "ciudad": {
+      "ciudadID": 1,
+      "nombre": "Buenos Aires",
+      "pais": {
+        "paisID": 1,
+        "nombre": "Argentina"
+      }
+    },
+    "categoriaTitulo": "Bed and Breakfast",
+    "caracteristicas": [
+      {
+        "id": 1,
+        "icono": "swimmer"
+      },
+      {
+        "id": 2,
+        "icono": "dumbbell"
+      },
+      {
+        "id": 3,
+        "icono": "utensils"
+      },
+      {
+        "id": 4,
+        "icono": "cocktail"
+      },
+      {
+        "id": 5,
+        "icono": "wifi"
+      }
+    ],
+    "imagen": {
+      "id": 1,
+      "urlImagen": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=780&q=80",
+      "imagen": null
+    },
+    "puntajePromedio": 3.67
+  },
+  {
+    "productoId": 8,
+    "titulo": "Mansión Foster",
+    "descripcion": "Explora la rica historia y cultura de nuestra ciudad desde la comodidad de nuestro hotel de estilo colonial, donde cada detalle evoca la época dorada de la región.",
+    "esFavorito": true,
+    "ciudad": {
+      "ciudadID": 1,
+      "nombre": "Buenos Aires",
+      "pais": {
+        "paisID": 1,
+        "nombre": "Argentina"
+      }
+    },
+    "categoriaTitulo": "Bed and Breakfast",
+    "caracteristicas": [
+      {
+        "id": 1,
+        "icono": "swimmer"
+      },
+      {
+        "id": 2,
+        "icono": "dumbbell"
+      },
+      {
+        "id": 3,
+        "icono": "utensils"
+      },
+      {
+        "id": 4,
+        "icono": "cocktail"
+      },
+      {
+        "id": 5,
+        "icono": "wifi"
+      }
+    ],
+    "imagen": {
+      "id": 1,
+      "urlImagen": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=780&q=80",
+      "imagen": null
+    },
+    "puntajePromedio": 3.67
+  },
+  {
+    "productoId": 9,
+    "titulo": "Mansión Foster",
+    "descripcion": "Explora la rica historia y cultura de nuestra ciudad desde la comodidad de nuestro hotel de estilo colonial, donde cada detalle evoca la época dorada de la región.",
+    "esFavorito": true,
+    "ciudad": {
+      "ciudadID": 1,
+      "nombre": "Buenos Aires",
+      "pais": {
+        "paisID": 1,
+        "nombre": "Argentina"
+      }
+    },
+    "categoriaTitulo": "Bed and Breakfast",
+    "caracteristicas": [
+      {
+        "id": 1,
+        "icono": "swimmer"
+      },
+      {
+        "id": 2,
+        "icono": "dumbbell"
+      },
+      {
+        "id": 3,
+        "icono": "utensils"
+      },
+      {
+        "id": 4,
+        "icono": "cocktail"
+      },
+      {
+        "id": 5,
+        "icono": "wifi"
+      }
+    ],
+    "imagen": {
+      "id": 1,
+      "urlImagen": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=780&q=80",
+      "imagen": null
+    },
+    "puntajePromedio": 3.67
+  },
+  {
+    "productoId": 10,
+    "titulo": "Mansión Foster",
+    "descripcion": "Explora la rica historia y cultura de nuestra ciudad desde la comodidad de nuestro hotel de estilo colonial, donde cada detalle evoca la época dorada de la región.",
+    "esFavorito": true,
+    "ciudad": {
+      "ciudadID": 1,
+      "nombre": "Buenos Aires",
+      "pais": {
+        "paisID": 1,
+        "nombre": "Argentina"
+      }
+    },
+    "categoriaTitulo": "Bed and Breakfast",
+    "caracteristicas": [
+      {
+        "id": 1,
+        "icono": "swimmer"
+      },
+      {
+        "id": 2,
+        "icono": "dumbbell"
+      },
+      {
+        "id": 3,
+        "icono": "utensils"
+      },
+      {
+        "id": 4,
+        "icono": "cocktail"
+      },
+      {
+        "id": 5,
+        "icono": "wifi"
+      }
+    ],
+    "imagen": {
+      "id": 1,
+      "urlImagen": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=780&q=80",
+      "imagen": null
+    },
+    "puntajePromedio": 3.67
+  },
+  {
+    "productoId": 11,
+    "titulo": "Mansión Foster",
+    "descripcion": "Explora la rica historia y cultura de nuestra ciudad desde la comodidad de nuestro hotel de estilo colonial, donde cada detalle evoca la época dorada de la región.",
+    "esFavorito": true,
+    "ciudad": {
+      "ciudadID": 1,
+      "nombre": "Buenos Aires",
+      "pais": {
+        "paisID": 1,
+        "nombre": "Argentina"
+      }
+    },
+    "categoriaTitulo": "Bed and Breakfast",
+    "caracteristicas": [
+      {
+        "id": 1,
+        "icono": "swimmer"
+      },
+      {
+        "id": 2,
+        "icono": "dumbbell"
+      },
+      {
+        "id": 3,
+        "icono": "utensils"
+      },
+      {
+        "id": 4,
+        "icono": "cocktail"
+      },
+      {
+        "id": 5,
+        "icono": "wifi"
+      }
+    ],
+    "imagen": {
+      "id": 1,
+      "urlImagen": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=780&q=80",
+      "imagen": null
+    },
+    "puntajePromedio": 3.67
+  },
+  {
+    "productoId": 12,
+    "titulo": "Mansión Foster",
+    "descripcion": "Explora la rica historia y cultura de nuestra ciudad desde la comodidad de nuestro hotel de estilo colonial, donde cada detalle evoca la época dorada de la región.",
+    "esFavorito": true,
+    "ciudad": {
+      "ciudadID": 1,
+      "nombre": "Buenos Aires",
+      "pais": {
+        "paisID": 1,
+        "nombre": "Argentina"
+      }
+    },
+    "categoriaTitulo": "Bed and Breakfast",
+    "caracteristicas": [
+      {
+        "id": 1,
+        "icono": "swimmer"
+      },
+      {
+        "id": 2,
+        "icono": "dumbbell"
+      },
+      {
+        "id": 3,
+        "icono": "utensils"
+      },
+      {
+        "id": 4,
+        "icono": "cocktail"
+      },
+      {
+        "id": 5,
+        "icono": "wifi"
+      }
+    ],
+    "imagen": {
+      "id": 1,
+      "urlImagen": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=780&q=80",
+      "imagen": null
+    },
+    "puntajePromedio": 3.67
+  }
+]

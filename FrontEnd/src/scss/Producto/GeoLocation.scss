@@ -1,0 +1,15 @@
+@use '../_variables' as _;
+
+.geolocalizacion {
+    background: white; 
+    h2{
+        text-align: start;
+        border-bottom: 1px solid _.$primary;
+        padding: 1rem 2rem 0.2rem 2rem;
+        color: _.$secondary;
+    }
+    p{
+        padding: 1rem 2rem 0.2rem 2rem;
+        color: _.$secondary;
+    }
+}

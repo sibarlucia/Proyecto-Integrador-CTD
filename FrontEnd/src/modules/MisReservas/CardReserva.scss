@@ -1,0 +1,92 @@
+$card-width: 500px;
+
+article {
+  position: relative;
+  width: $card-width;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: -1px 10px 12px 6px rgba(0, 0, 0, 0.54);
+}
+
+article .img-container {
+  // box-shadow: 0 60px 60px -60px rgba(0, 30, 255, 0.5);
+  border-radius: 4px;
+
+  img {
+    object-fit: cover;
+    width: $card-width;
+  }
+}
+
+.card-info {
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+
+article .card-reserva-info {
+  position: absolute;
+  width: $card-width;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transform: translateY(25%);
+  transition: .3s ease;
+  opacity: 0;
+  border-radius: 10px;
+  z-index: 2;
+  .eliminar-reserva{
+    position: absolute;
+    top: -160px;
+    right: 30px;
+    color: red;
+    text-decoration: underline;
+    background-color: rgba(216, 216, 216, 0.719);
+    border-radius: 5px;
+    padding: 2px;
+  }
+}
+
+article:hover {
+  transform:
+    perspective($card-width) rotateX(10deg) translateY(-5%) translateZ(0);
+}
+
+article::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  // background-image: linear-gradient(to bottom, tansparent 10%, rgba(0,0,0,0.5) 50%, rgba(0,0,0) 95%);
+  background:
+    linear-gradient(to bottom,
+      rgba(255, 255, 255, 0.1) 10%,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0) 95%);
+  opacity: 0;
+  transition: .3s ease;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+article:hover::before {
+  opacity: 1;
+}
+
+article:hover .card-reserva-info {
+  opacity: 1;
+  transform: translateY(-25%) translateX(23px);
+}
+
+.info-io {
+  color: #FFF;
+  font-size: 12px;
+
+  .bold {
+    font-weight: 600;
+    color: #FFF;
+  }
+}

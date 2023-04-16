@@ -1,0 +1,9 @@
+@use '@scss/_variables' as _;
+
+.reservas-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 500px));
+  justify-content: space-around;
+  row-gap: 35px;
+  column-gap: 10px;
+}

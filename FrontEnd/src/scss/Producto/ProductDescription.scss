@@ -1,0 +1,22 @@
+@use '../_variables' as _;
+
+.p-description-container{
+    // justify-content: flex-start;
+
+    h2{
+        text-align: start;
+        border-bottom: 1px solid _.$primary;
+        padding: 1rem 2rem 0.2rem 2rem;
+        color: _.$secondary;
+    }
+
+    .p-description {
+        padding: 1rem 2rem;
+        line-height: 1.5rem;
+
+        p {
+            font-weight: 500;
+            
+        }
+    }
+}

@@ -1,0 +1,92 @@
+@use '@scss/_variables' as _;
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Raleway:wght@400;600&family=Roboto:wght@300;700&display=swap');
+
+.desplegable {
+background-color: white;
+position: absolute;
+right: 0;
+top: 93px;
+height: 80px;
+width: 250px;
+border: 1px solid #DFE4EA;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 0px 0px 8px 8px;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+ h2 {
+    color:#545776;
+    padding: 10px;
+ }
+ hr {
+    border-color: _.$primary;
+    height: 90%
+ }
+}
+
+.hamburguesa {
+    display: none;
+}
+
+.invisible {
+    display: none;
+}
+
+@media (max-width: 480px) {
+/* 
+    .acciones {
+
+        height: 53vh;
+        display: flex;
+        flex-direction: column;
+    } */
+
+    .acciones h2 {
+        color: #383B58;
+        text-align: right;
+        margin: 15px;
+    }
+
+    .hamburguesa {
+        position: absolute;
+        font-family: 'Roboto';
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        transform: translateX(100%);
+        transition: 0.2s ease all;
+        z-index: 200;
+        background-color: white;
+        top: 0;
+        height: 100vh;
+    }
+
+    .redes-sociales {
+        bottom: 0;
+        text-align: right;
+        color: _.$secondary;
+    }
+
+    /* .top {
+        background-color: #1DBEB4;
+        height: 250px;
+    } */
+
+    .hamburguesa.show {
+        transform: translateX(0) !important;
+    }
+
+    .burguer {
+        display: flex !important;
+        flex-direction: column;
+        transform-origin: 5px 0px;
+        transition: all 0.2s linear;
+    }
+
+    hr {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

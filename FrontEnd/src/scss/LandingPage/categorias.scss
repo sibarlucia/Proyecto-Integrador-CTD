@@ -1,0 +1,74 @@
+@use '@scss/variables' as _;
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Raleway:wght@400;600&family=Roboto:wght@300;700&display=swap');
+
+
+.categoria {
+    border: 1px solid #F3F1ED;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 0.1s ease-in-out;
+    height: 260px;
+}
+
+.categoria.active {
+    box-shadow: 0px 0px 6px 5px _.$primary;
+    transform: scale(1.03);
+}
+
+.categoria:not(.active):hover {
+    border: 1px solid #F3F1ED;
+    border-radius: 10px;
+    transform: scale(1.03);
+    transition: all 0.2s ease-in-out;
+}
+
+.categoria:not(.active):not(:hover) {
+    /* agregar selector para cuando el cursor se retira */
+    transform: scale(1);
+}
+
+.img-container {
+    max-width: 310px;
+    height: 200px;
+}
+
+.categoria-img {
+    // max-width: 265px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
+}
+
+.categoria-titulo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #383B58;
+    margin: 5px 0px 0px 10px;
+}
+
+.categoria-descripcion {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #909091;
+    margin: 5px 0px 10px 10px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .categoria {
+        margin: 10px 5px;
+    }
+}

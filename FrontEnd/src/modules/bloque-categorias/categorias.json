@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "titulo": "Hoteles",
+    "descripcion": "192.912 hoteles",
+    "url_imagen": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+  {
+    "id": 1,
+    "titulo": "Hosteles",
+    "descripcion": "346.567 hoteles",
+    "url_imagen": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+  },
+  {
+    "id": 2,
+    "titulo": "Departamentos",
+    "descripcion": "535.764 hoteles",
+    "url_imagen": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+  {
+    "id": 3,
+    "titulo": "Bed & Breakfast",
+    "descripcion": "2.235 hoteles",
+    "url_imagen": "https://images.unsplash.com/photo-1603584596296-51091347249a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"
+  }
+]

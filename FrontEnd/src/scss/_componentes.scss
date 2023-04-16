@@ -1,0 +1,94 @@
+@use "_variables" as _;
+
+.innerButton {
+  background: #FFFFFF;
+  border: 1px solid _.$primary;
+  border-radius: 5px;
+  position: relative;
+  padding: 10px 15px 10px 15px;
+  margin: 10px;
+  color: _.$primary;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+}
+
+.innerButtonHover {
+  background: _.$primary;
+  color: #FFFFFF;
+}
+
+.innerButtonDisabled {
+  background: #c5c3c3;
+  border: 1px solid #0f6d68;
+  color: #eaebeb;
+  cursor: auto;
+}
+
+.bordes {
+  border: 1px solid #DFE4EA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  background-color: _.$text-color-primary;
+}
+
+.btnNormal{
+  border: none;
+  background: #1dbeb4;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  position: relative;
+  margin: 10px;
+  width: 93%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.btnNormal:hover {
+  background: #0f6660;
+}
+
+.btnNormalDisabled {
+  background: #c5c3c3;
+  border: 1px solid #545776;
+  color: #eaebeb;
+  cursor: auto;
+}
+
+.inputNormal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background-color: white;
+  color: black;
+  border: 1px solid #00BFA5;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.inputNormal:focus {
+    outline: none !important;
+    border: 2px solid _.$primary !important;
+}
+
+.form-label {
+  color: #383B58;
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+}

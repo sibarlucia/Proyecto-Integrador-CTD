@@ -1,0 +1,58 @@
+@use '@scss/_variables.scss' as _;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #929191;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: _.$primary;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: _.$primary-dark;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+
+  .xl-visible,
+  .md-visible {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .xs-visible {
+    display: none !important;
+  }
+
+  .xl-visible {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .xs-visible {
+    display: none !important;
+  }
+}

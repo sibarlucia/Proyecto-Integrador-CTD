@@ -1,0 +1,11 @@
+ @use '@scss/_variables' as _;
+
+ .container{
+  border: 1px solid #dfe4ea;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 30px;
+  .preview-container{
+    display: flex;
+    justify-content: center;
+  }
+}

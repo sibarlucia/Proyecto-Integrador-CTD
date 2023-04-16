@@ -1,0 +1,11 @@
+CREATE DATABASE  IF NOT EXISTS `0223TDPRON1C7LAED0621PT_GRUPO5`;
+USE `0223TDPRON1C7LAED0621PT_GRUPO5`;
+
+DROP TABLE IF EXISTS `caracteristicas`;
+CREATE TABLE `caracteristicas` (
+  `caracteristica_id` int NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(45) DEFAULT NULL,
+  `icono` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`caracteristica_id`)
+);
+ALTER TABLE caracteristicas AUTO_INCREMENT = 1;

@@ -1,0 +1,80 @@
+.contenedor-calendario {
+    background: #ffffff;
+    border: 1px solid #dfe4ea;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.columna-politicas {
+    padding: 20px;
+}
+
+.columna-politicas ul{
+    list-style: none;
+}
+
+.columna-politicas ul li{
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.contenedor-calendario button {
+    border: none;
+    background: none;
+}
+
+.flechita {
+    border-radius: 50%;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.2);
+    color: #1DBEB4;
+    font-size: xx-large;
+}
+
+.politicas {
+    background-color:#ffffff;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-bottom: -30px;
+}
+
+.politicas h3 {
+    color: #545776;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.politicas hr {
+    background-color:#1DBEB4;
+    border:none;
+    height: 2px;
+    width: 90%;
+    margin-left: 20px;
+}
+
+
+.react-calendar {
+    border: none;
+}
+
+.reserva-contenido {
+    margin-top: 93px;
+    margin-bottom: 90px;
+}
+
+@media screen and (min-width: 769px) {
+    .contenedor-politicas {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .componentes-reservas {
+        display: flex;
+        justify-content: center;
+    }
+
+}

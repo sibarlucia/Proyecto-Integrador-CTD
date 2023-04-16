@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "nombre": "San Carlos de Bariloche",
+    "pais": "Argentina"
+  },
+  {
+    "id": 2,
+    "nombre": "Buenos Aires",
+    "pais": "Argentina"
+  },
+  {
+    "id": 3,
+    "nombre": "Mendoza",
+    "pais": "Argentina"
+  },
+  {
+    "id": 4,
+    "nombre": "Córdoba",
+    "pais": "Argentina"
+  },
+  {
+    "id": 5,
+    "nombre": "San Luis",
+    "pais": "Argentina"
+  },
+  {
+    "id": 6,
+    "nombre": "Villa Mercedes",
+    "pais": "Argentina"
+  },
+  {
+    "id": 7,
+    "nombre": "Corrientes",
+    "pais": "Argentina"
+  }
+]

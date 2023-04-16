@@ -1,0 +1,44 @@
+@use '../_variables' as _;
+
+.p-header-container{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: _.$secondary;
+    padding: 0.5rem 2rem; 
+    color: white;
+
+    .left-container{
+        align-self: flex-start;
+
+        &-subtitle {
+            text-transform: uppercase;
+            font-weight: 400;
+        }
+
+        h3 {
+            font-size: 24px;
+            color:_.$text-color-primary;
+        }
+        h5 {
+            color:_.$text-color-primary;  
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
+
+    .right-container{
+
+        .icon-arrow {
+            height: 2rem;
+            width: auto;
+            cursor: pointer;
+
+            path{
+                color:_.$text-color-primary;
+            }
+        }
+    }
+}

@@ -1,0 +1,81 @@
+@use '../_variables' as _;
+
+.p-calendar {
+    width: 100%;
+    background-color: _.$background;
+
+    // @media (max-width: 1024px) {
+    //     padding: 1rem;
+    // }
+
+    h2 {
+        text-align: start;
+        padding: 1rem 2rem 0.2rem 2rem;
+        color: _.$secondary;
+    }
+
+    .p-calendar-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        @media (min-width: 481px) and (max-width: 930px) {
+            flex-direction: column;
+            width: 100%;
+            padding: 20px 0px 20px 0px;
+        }
+
+        @media (min-width: 931px) {
+            justify-content: center;
+            flex-direction: row;
+        }
+
+        .rmdp-wrapper {
+            padding: 0.5rem 2rem;
+            z-index: 0 !important;
+
+            @media (max-width: 720px) {
+                padding: 0;
+            }
+
+            .rmdp-day-picker {
+                > div {
+                    padding: 0.5rem 2rem;
+                }
+            }
+        }
+
+        .rmdp-shadow {
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+
+        &-cta {
+            display: flex;
+            width: 300px;
+            flex-direction: column;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            padding: 1rem;
+            border-radius: 8px;
+            background-color: white;
+            margin-left: 2rem;
+
+            @media (min-width: 721px) {
+                width: 400px;
+                margin-left: 2rem;
+            }
+
+            @media (max-width: 720px) {
+                width: 100%;
+                margin: 1rem;
+                background-color: _.$background;
+                box-shadow: none;
+            }
+
+            p {
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}

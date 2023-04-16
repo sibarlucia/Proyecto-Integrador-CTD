@@ -1,0 +1,193 @@
+[
+  {
+    "productoId": 1,
+    "titulo": "Mansión Foster",
+    "descripcion": "Explora la rica historia y cultura de nuestra ciudad desde la comodidad de nuestro hotel de estilo colonial, donde cada detalle evoca la época dorada de la región.",
+    "esFavorito": false,
+    "ciudad": {
+      "ciudadID": 1,
+      "nombre": "Buenos Aires",
+      "pais": {
+        "paisID": 1,
+        "nombre": "Argentina"
+      }
+    },
+    "categoriaTitulo": "Bed and Breakfast",
+    "caracteristicas": [
+      {
+        "id": 1,
+        "icono": "swimmer"
+      },
+      {
+        "id": 2,
+        "icono": "dumbell"
+      },
+      {
+        "id": 3,
+        "icono": "utensils"
+      },
+      {
+        "id": 4,
+        "icono": "cocktail"
+      },
+      {
+        "id": 5,
+        "icono": "wifi"
+      }
+    ],
+    "imagen": {
+      "id": 1,
+      "urlImagen": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=780&q=80",
+      "imagen": null
+    },
+    "puntajePromedio": 4.5
+  },
+  {
+    "productoId": 2,
+    "titulo": "Casella",
+    "descripcion": "Disfruta de la belleza natural del entorno y de unas vistas impresionantes desde nuestras habitaciones con balcón privado en el corazón de la montaña.",
+    "esFavorito": false,
+    "ciudad": {
+      "ciudadID": 2,
+      "nombre": "Nueva York",
+      "pais": {
+        "paisID": 9,
+        "nombre": "Estados Unidos"
+      }
+    },
+    "categoriaTitulo": "Bed and Breakfast",
+    "caracteristicas": [
+      {
+        "id": 7,
+        "icono": "parking"
+      },
+      {
+        "id": 6,
+        "icono": "hotTub"
+      },
+      {
+        "id": 5,
+        "icono": "wifi"
+      },
+      {
+        "id": 4,
+        "icono": "cocktail"
+      }
+    ],
+    "imagen": {
+      "id": 3,
+      "urlImagen": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "imagen": null
+    },
+    "puntajePromedio": 3.8
+  },
+  {
+    "productoId": 3,
+    "titulo": "Hilton",
+    "descripcion": "Descubre una nueva forma de viajar y hospédate en nuestro hostel, donde encontrarás habitaciones compartidas con ambiente acogedor y precios accesibles.",
+    "esFavorito": false,
+    "ciudad": {
+      "ciudadID": 3,
+      "nombre": "Tokio",
+      "pais": {
+        "paisID": 10,
+        "nombre": "Canadá"
+      }
+    },
+    "categoriaTitulo": "Hostels",
+    "caracteristicas": [
+      {
+        "id": 1,
+        "icono": "swimmer"
+      },
+      {
+        "id": 4,
+        "icono": "cocktail"
+      },
+      {
+        "id": 5,
+        "icono": "wifi"
+      },
+      {
+        "id": 1,
+        "icono": "swimmer"
+      }
+    ],
+    "imagen": {
+      "id": 5,
+      "urlImagen": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "imagen": null
+    },
+    "puntajePromedio": 2.5
+  },
+  {
+    "productoId": 4,
+    "titulo": "Maravilla",
+    "descripcion": "Sumérgete en el lujo y el confort en nuestro hotel boutique de estilo clásico con interiores exquisitamente diseñados y servicios de primer nivel.",
+    "esFavorito": false,
+    "ciudad": {
+      "ciudadID": 4,
+      "nombre": "París",
+      "pais": {
+        "paisID": 7,
+        "nombre": "Francia"
+      }
+    },
+    "categoriaTitulo": "Hoteles",
+    "caracteristicas": [
+      {
+        "id": 1,
+        "icono": "swimmer"
+      },
+      {
+        "id": 5,
+        "icono": "wifi"
+      },
+      {
+        "id": 7,
+        "icono": "parking"
+      }
+    ],
+    "imagen": {
+      "id": 7,
+      "urlImagen": "https://images.unsplash.com/photo-1623625434462-e5e42318ae49?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+      "imagen": null
+    },
+    "puntajePromedio": 4.2
+  },
+  {
+    "productoId": 5,
+    "titulo": "Las piedras",
+    "descripcion": "Explora la ciudad de una forma diferente y hospédate en nuestro hostel céntrico, donde estarás rodeado de los principales puntos turísticos y la vida local.",
+    "esFavorito": false,
+    "ciudad": {
+      "ciudadID": 5,
+      "nombre": "Madrid",
+      "pais": {
+        "paisID": 11,
+        "nombre": "Méjico"
+      }
+    },
+    "categoriaTitulo": "Hostels",
+    "caracteristicas": [
+      {
+        "id": 5,
+        "icono": "wifi"
+      },
+      {
+        "id": 1,
+        "icono": "swimmer"
+      },
+      {
+        "id": 3,
+        "icono": "utensils"
+      }
+    ],
+    "imagen": {
+      "id": 9,
+      "urlImagen": "https://images.unsplash.com/photo-1608198399988-341f712c3711?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "imagen": null
+    },
+    "puntajePromedio": 3.9
+  }
+]

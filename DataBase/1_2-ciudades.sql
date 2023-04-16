@@ -1,0 +1,20 @@
+-- carga de 18 ciudades
+INSERT INTO ciudades (nombre, pais_id) VALUES 
+  ('Buenos Aires', 1),
+  ('Nueva York', 9),
+  ('Tokio', 10),
+  ('París', 7),
+  ('Madrid', 11),
+  ('La Paz', 15),
+  ('Lima', 5),
+  ('Camboriú', 2),
+  ('Medellin', 3),
+  ('Bogotá', 3),
+  ('Los Ángeles', 9),
+  ('San Francisco', 9),
+  ('Las Vegas', 9),
+  ('Bariloche', 1),
+  ('Mar del Plata', 1),
+  ('Purmamarca', 1),
+  ('Rosario', 1),
+  ('Córdoba', 1);

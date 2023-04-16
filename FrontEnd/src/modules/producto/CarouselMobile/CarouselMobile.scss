@@ -1,0 +1,53 @@
+@use '@scss/_variables' as _;
+@import '@scss/_componentes';
+
+.botones {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+button{
+    background: none;
+    border: none;
+    font-size: xx-large;
+    margin: 10px;
+    i {
+        color: rgba(255, 255, 255, 0.5);
+    }
+} }
+
+.btn-stop {
+    border: none;
+    background: none;
+    font-size: large;
+    i {
+    color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+.carousel-mobile {
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.stop-count {
+    display: flex;
+    flex-direction:row;
+    position: absolute;
+    top: 520px;
+    right: 0;
+    span {
+     color: rgba(255, 255, 255, 0.5);
+     margin-left: 10px;
+     margin-right: 5px;
+    }
+}

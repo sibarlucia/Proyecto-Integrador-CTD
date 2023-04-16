@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Quicksand&family=Raleway:wght@400;600&family=Roboto:wght@300;700&display=swap');
+
+.header-reserva {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    padding: 10px 30px 10px 30px;
+}
+
+.header-reserva button {
+    border-style: none;
+    background-color: #545776;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+.header-reserva-texto h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.header-reserva-texto h3{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+}

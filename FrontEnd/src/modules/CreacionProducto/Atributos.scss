@@ -1,0 +1,49 @@
+@use '@scss/_variables' as _;
+
+.atributos-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 220px));
+  background: #fff;
+  border: 1px solid #dfe4ea;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 30px;
+  gap: 20px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.check-container{
+  border-radius: 5px;
+  // border: 1px solid #000;
+  border: 1px solid #dfe4ea;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  &:hover{
+    background-color: #e0e0e0;
+  }
+
+  &.selected{
+    background-color: _.$primary;
+    color: #fff;
+  }
+  
+  label{
+    color: #000;
+    cursor: pointer;
+  }
+
+  input[type="checkbox"]:checked + label{
+    color: #fff;
+    background-color: _.$primary;
+    svg path{
+      fill: #000;
+    }
+  }
+}

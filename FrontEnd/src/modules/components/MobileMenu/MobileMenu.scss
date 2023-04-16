@@ -1,0 +1,104 @@
+@use '@scss/_variables' as _;
+
+$topHeight: 250px;
+$redesHeight: 40px;
+$accionesHeight: calc(100vh - $topHeight - $redesHeight);
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: _.$primary;
+  height: $topHeight;
+
+  .close {
+    border: none;
+    background: transparent;
+    color: white;
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: larger;
+    position: relative
+  }
+
+  .user-container {
+    align-self: flex-end;
+    text-align: end;
+
+    .avatar {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #FFF;
+      margin: 8px 16px;
+
+      span {
+        color: #383b58
+      }
+    }
+  }
+
+  .hola-container {
+    position: relative;
+    margin: 0 16px 16px 0;
+
+    .hola {
+      color: #FFF;
+    }
+
+    .user-container {
+      .user {
+        color: #383b58;
+      }
+
+      .admiracion {
+        color: #FFF;
+      }
+
+    }
+  }
+
+  .menu {
+    margin-top: 180px;
+    text-align: right;
+  }
+}
+
+.acciones-container {
+  height: $accionesHeight;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .cerrar-sesion-container {
+    padding: 10px 0;
+
+    .cerrar-sesion {
+      text-align: end;
+      margin: 5px 16px;
+
+      span {
+        color: _.$primary;
+      }
+    }
+
+  }
+}
+
+.redes-sociales {
+  margin-right: 30px;
+  height: $redesHeight;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  .fa-icon {
+    font-size: 28px;
+    margin: 0 15px;
+  }
+}

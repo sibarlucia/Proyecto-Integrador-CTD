@@ -1,0 +1,138 @@
+{
+  "productoId": 1,
+  "titulo": "Mansión Foster",
+  "descripcion": "Explora la rica historia y cultura de nuestra ciudad desde la comodidad de nuestro hotel de estilo colonial, donde cada detalle evoca la época dorada de la región.",
+  "ubicacion": "Ubicación 67",
+  "frase": "Alojate en el mejor hotel de la ciudad",
+  "esFavorito": true,
+  "ciudad": {
+    "ciudadID": 1,
+    "nombre": "Buenos Aires",
+    "pais": {
+      "paisID": 1,
+      "nombre": "Argentina"
+    }
+  },
+  "categoria": {
+    "idCategoria": 2,
+    "titulo": "Bed and Breakfast",
+    "descripcion": "Descripción de la categoría 2",
+    "urlImagen": "https://images.unsplash.com/photo-1590856029620-9b5a4825d3be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80"
+  },
+  "caracteristicas": [
+    {
+      "id": 1,
+      "nombre": "Piscina",
+      "icono": "swimmer"
+    },
+    {
+      "id": 2,
+      "nombre": "Gimnasio",
+      "icono": "dumbbell"
+    },
+    {
+      "id": 3,
+      "nombre": "Restaurante",
+      "icono": "utensils"
+    },
+    {
+      "id": 4,
+      "nombre": "Bar",
+      "icono": "cocktail"
+    },
+    {
+      "id": 5,
+      "nombre": "Wifi",
+      "icono": "wifi"
+    }
+  ],
+  "imagenes": [
+    {
+      "id": 1,
+      "urlImagen": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=780&q=80",
+      "imagen": null
+    },
+    {
+      "id": 2,
+      "urlImagen": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "imagen": null
+    },
+    {
+      "id": 26,
+      "urlImagen": "https://images.unsplash.com/photo-1562790351-d273a961e0e9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80",
+      "imagen": null
+    }
+  ],
+  "reservas": [
+    {
+      "id": 1,
+      "fechaIngreso": "2023-04-21T00:00:00",
+      "fechaEgreso": "2023-04-23T00:00:00",
+      "productoId": 1,
+      "usuarioId": 2,
+      "resenia": {
+        "id": 1,
+        "puntaje": 4.5
+      }
+    },
+    {
+      "id": 2,
+      "fechaIngreso": "2023-04-07T00:00:00",
+      "fechaEgreso": "2023-04-12T00:00:00",
+      "productoId": 1,
+      "usuarioId": 2,
+      "resenia": {
+        "id": 1,
+        "puntaje": 5
+      }
+    },
+    {
+      "id": 3,
+      "fechaIngreso": "2023-04-28T00:00:00",
+      "fechaEgreso": "2023-04-30T00:00:00",
+      "productoId": 1,
+      "usuarioId": 2,
+      "resenia": {
+        "id": 1,
+        "puntaje": 2
+      }
+    }
+  ],
+  "puntajePromedio": 3.83,
+  "politicasAgrupadasPorTipo": {
+    "saludYSeguridad": [
+      {
+        "id": 57,
+        "tipo": {
+          "descripcion": "Salud y seguridad"
+        },
+        "descripcion": "Detector de humo"
+      },
+      {
+        "id": 77,
+        "tipo": {
+          "descripcion": "Salud y seguridad"
+        },
+        "descripcion": "Depósito de seguridad"
+      }
+    ],
+    "normasDeLaCasa": [
+      {
+        "id": 1,
+        "tipo": {
+          "descripcion": "Normas de la casa"
+        },
+        "descripcion": "No fumar"
+      }
+    ],
+    "politicaDeCancelacion": [
+      {
+        "id": 94,
+        "tipo": {
+          "descripcion": "Política de cancelación"
+        },
+        "descripcion": "Cancelación sin costo con 48 hs de anticipación"
+      }
+    ]
+  }
+}

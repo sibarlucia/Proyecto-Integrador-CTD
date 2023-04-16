@@ -1,0 +1,88 @@
+@use "@scss/_variables" as _;
+@use "@scss/_componentes";
+
+.bloque-lista {
+  background-color: #F3F1ED;
+  width: 100%;
+  padding: 10px;
+}
+
+.contenedor {
+  display: grid;
+  justify-content: space-between;
+  gap: 10px 10px;
+}
+
+.botonera {
+  margin-bottom: 70px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botonera button {
+  @extend .innerButton;
+}
+
+.botonera button:hover {
+  @extend .innerButtonHover;
+}
+
+.botonera button:disabled {
+  @extend .innerButtonDisabled;
+}
+
+
+@media screen and (max-width: 480px) {
+
+  .xl-visible,
+  .md-visible {
+    display: none !important;
+  }
+
+  .bloque-lista {
+    background-color: #383B58;
+  }
+
+  .title-list {
+    color: white;
+  }
+
+  .contenedor {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .xs-visible {
+    display: none !important;
+  }
+
+  .xl-visible {
+    display: none !important;
+  }
+
+  .contenedor {
+    grid-template-columns: 1fr;
+  }
+
+  .title-list {
+    color: #383B58;
+  }
+
+}
+
+@media screen and (min-width: 769px) {
+  .xs-visible {
+    display: none !important;
+  }
+
+  .contenedor {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .title-list {
+    color: #383B58;
+  }
+}
